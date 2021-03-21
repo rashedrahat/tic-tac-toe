@@ -89,6 +89,10 @@
   line-height: 1.5;
 }
 
+.img {
+  margin-top: 25px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

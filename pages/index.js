@@ -8,6 +8,9 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://en.wikipedia.org/wiki/Tic-tac-toe" target="_blank">Tic-Tac-Toe!</a>
         </h1>
+        <div className={styles.img}>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tic_tac_toe.svg/200px-Tic_tac_toe.svg.png"/>
+        </div>
 
         <div className={styles.grid}>
           <Link href="/play">

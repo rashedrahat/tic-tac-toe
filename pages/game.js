@@ -43,15 +43,11 @@ const Game = ({gameRoundOfFiveInfo, participatedPlayers, processChangingGameRoun
             for (let i = 0; i < joinedPlayers.length; i++) {
                 if (joinedPlayers[i].hasOwnProperty(result)) {
                     const objIndex = joinedPlayers.findIndex((obj => obj.id == joinedPlayers[i].id));
-                    joinedPlayers[objIndex].score += 2
-
+                    joinedPlayers[objIndex].score += 2;
+                    joinedPlayers[objIndex === 0 ? objIndex + 1 : objIndex - 1].score += 1;
                     break;
                 }
             }
-        } else {
-            joinedPlayers.forEach(function(obj) {
-                obj.score += 1
-            });
         }
 
         return joinedPlayers;
