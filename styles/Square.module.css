@@ -1,0 +1,26 @@
+.card {
+    margin: 10px 10px;
+    background-color: white;
+    border-radius: 13px;
+    height: 110px;
+    width: 110px;
+    border: rgb(238, 238, 238);
+    text-align: center;
+    justify-content: center;
+    font-size: 26px;
+    color: skyblue;
+}
+
+.blueSign {
+    font-weight: 200;
+    background: -webkit-linear-gradient(rgb(36, 213, 247), rgb(111, 36, 243));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.redSign {
+    font-weight: 200;
+    background: -webkit-linear-gradient(rgb(255, 175, 179), rgb(255, 61, 157));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

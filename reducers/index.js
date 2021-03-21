@@ -1,8 +1,10 @@
 import {combineReducers} from 'redux';
-import counterReducer from './counter';
+import gameRoundOfFiveReducer from "./gameRoundOfFive";
+import participatedPlayersReducer from "./participatedPlayers";
 
 const rootReducer = combineReducers({
-    counter: counterReducer,
+    gameRoundOfFive: gameRoundOfFiveReducer,
+    participatedPlayers: participatedPlayersReducer
 });
 
 export default rootReducer;

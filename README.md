@@ -20,3 +20,5 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+**Note:** Developed in Node version `15.1.0` Recommended Node version `15.1.0` or required at least Node version `10.18.1+`
