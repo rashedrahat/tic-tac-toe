@@ -9,6 +9,7 @@ git clone https://github.com/rashedrahat/tic-tac-toe.git
 Then,
 ```bash
 cd tic-tac-toe
+npm i
 ```
 
 Finally, run the development server:
